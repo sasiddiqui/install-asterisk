@@ -23,8 +23,6 @@
     - make
     - make uninstall
     - make install
-    - make config
-    - make samples
 
 - name: Create install dir
   file: "path={{ iasterisk_srcdir }} state=directory"
